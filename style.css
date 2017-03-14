@@ -1,0 +1,103 @@
+/* basic website styling */
+html, body {
+  font-family: "Open Sans", sans-serif;
+  color: #727272;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  color: #272727;
+}
+
+p {
+  font-size: 15px;
+}
+
+a {
+color: black;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #727272;
+}
+
+/* added styling that is used commonly in the document */
+.padbet {
+  padding: 80px 0;
+}
+
+.difback {
+  background-color: #f6f6f6;
+}
+
+.stdback {
+  background-color: white;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  background-color: #bd187e;
+  margin: 25px auto;
+}
+
+.shadowed {
+  font-size: 13px;
+  color: #b9b9b9;
+
+}
+
+/* navbar styling */
+nav.navbar {
+  background: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* navbar link styling */
+.navbar ul.navbar-nav li.nav-item a.nav-link {
+  color: #262626;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  padding: 0 20px;
+}
+.navbar ul.navbar-nav li.nav-item a.nav-link:hover, .navbar ul.navbar-nav li.nav-item a.nav-link:active, .navbar ul.navbar-nav li.nav-item a.nav-link:focus {
+  color: #bd187e;
+}
+
+/* navbar dropdown menu set up and styling */
+.navbar .dropdown-menu {
+ margin-top: 0px;
+}
+.navbar ul.navbar-nav li.dropdown:hover > div.dropdown-menu {
+  display: block;
+  transition: 0.4s
+}
+.navbar ul.navbar-nav li.dropdown > div.dropdown-menu {
+  display: none;
+  transition: 0.4s;
+}
+
+.dropdown-menu {
+  padding: 15px;
+  border-width: 1px;
+  border-color: #e4e4e4;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.dropdown-menu a.dropdown-link {
+  color: #262626;
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+}
+
+.dropdown-menu ul.list-unstyled li {
+  margin: 10px 0;
+}
+
+/* slider styling */
+#slider {
+  padding-top: 83px;
+}
