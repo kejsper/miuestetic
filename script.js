@@ -22,7 +22,6 @@ $(document).ready(function () {
   $('.tabs').on('click', function() {
     $('.tab-menu-active').addClass('tab-menu').removeClass('tab-menu-active');
     $(this).addClass('tab-menu-active').removeClass('tab-menu');
-
     var clickedTab = $(this).attr('id');
     var clickedId = clickedTab[clickedTab.length-1];
     $('.tab-menu-item').fadeOut(1);
