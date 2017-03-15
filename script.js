@@ -18,6 +18,11 @@ $(document).ready(function () {
     $('html, body').animate({scrollTop: 0}, 600);
   });
 
+  $('.tabs').on('click', function() {
+    $('.tab-menu-active').addClass('tab-menu').removeClass('tab-menu-active');
+    $(this).addClass('tab-menu-active').removeClass('tab-menu');
+  });
+
   // Shows scroll top arrow
   function showScrolltop () {
     var scrollPosition = $(document).scrollTop();
