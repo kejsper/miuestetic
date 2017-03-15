@@ -152,6 +152,10 @@ height: auto;
   cursor: pointer;
 }
 
+.hidden {
+  display: none;
+}
+
 .tab-menu-item {
   margin: 15px 10px 15px 25px;
 }
