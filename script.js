@@ -25,12 +25,9 @@ $(document).ready(function () {
 
     var clickedTab = $(this).attr('id');
     var clickedId = clickedTab[clickedTab.length-1];
-    $('.tab-menu-item').addClass('hidden');
+    $('.tab-menu-item').fadeOut(1);
     var idToShow = '#tab-item-' + clickedId;
-    $(idToShow).removeClass('hidden');
-    console.log(idToShow);
-    console.log(clickedTab);
-    console.log(clickedId);
+    $(idToShow).stop().fadeIn(700);
   });
 
   // Shows scroll top arrow
