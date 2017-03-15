@@ -129,8 +129,8 @@ nav.navbar {
 }
 
 .sliderfit {
-width: 100%;
-height: auto !important;
+width: auto;
+height: auto;
 }
 
 /* buy package styling */
@@ -167,7 +167,7 @@ i.fa-check {
 
 /* scroll top button styles */
 
-.scrolltop {
+#scrolltop {
   position: fixed;
   bottom: 20px;
   right: 20px;
