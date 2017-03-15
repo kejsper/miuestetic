@@ -163,3 +163,19 @@ i.fa-check {
   color: #bd187e;
   padding: 5px 20px 10px 0;
 }
+
+
+/* scroll top button styles */
+
+.scrolltop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #bd187e;
+  display: block;
+  text-align: center;
+  padding-top: 6px;
+  cursor: pointer;
+}
