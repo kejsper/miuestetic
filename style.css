@@ -22,6 +22,14 @@ footer {
   color: #727272;
 }
 
+/* Fixed bootstrap classes */
+
+.img-thumbnail {
+  border-width: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
 /* added styling that is used commonly in the document */
 .padbet {
   padding: 80px 0;
@@ -100,4 +108,38 @@ nav.navbar {
 /* slider styling */
 #slider {
   padding-top: 83px;
+}
+
+.sliderfit {
+width: 100%;
+height: auto !important;
+}
+
+/* buy package styling */
+
+.tab-menu-active {
+  background-color: #bd187e;
+  color: white;
+  padding: 15px 0;
+  border: 2px #fff solid;
+}
+
+.tab-menu {
+  background-color: #f5f5f5;
+  color: #161616;
+  padding: 15px 0;
+  border: 2px #fff solid;
+}
+
+.tab-menu-item {
+  margin: 15px 10px 15px 25px;
+}
+
+div.tab-menu-item ul > li {
+  margin-left: 5px;
+}
+
+i.fa-check {
+  color: #bd187e;
+  padding: 5px 20px 10px 0;
 }

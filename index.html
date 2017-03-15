@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Miu Estetic</title>
-    <link href='/web/20160322114243cs_/https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link href='/web/20160322114243cs_/http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
@@ -40,7 +41,6 @@
             <li class="nav-item">
               <a class="nav-link" href="#">GABINET</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="#">KONTAKT</a>
             </li>
@@ -59,13 +59,13 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-          <img class="d-block img-fluid" src="img/slide1.jpg" alt="First slide">
+          <img class="d-block img-fluid sliderfit" src="img/slide1.jpg" alt="First slide">
         </div>
         <div class="carousel-item">
-          <img class="d-block img-fluid" src="img/slide2.jpg" alt="Second slide">
+          <img class="d-block img-fluid sliderfit" src="img/slide2.jpg" alt="Second slide">
         </div>
         <div class="carousel-item">
-          <img class="d-block img-fluid" src="img/slide3.jpg" alt="Third slide">
+          <img class="d-block img-fluid sliderfit" src="img/slide3.jpg" alt="Third slide">
         </div>
       </div>
       <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
@@ -81,37 +81,37 @@
 
     <!-- Section with offer sample starts here -->
     <section class="padbet">
-    <div class="container">
-      <h1 class="text-center">Jesienna regeneracja</h1>
-      <div class="line"></div>
-      <p class="text-center">W okresie jesiennym polecamy zabiegi regeneracyjne</p>
-      <div class="row padbet">
-        <div class="col-lg-6">
-          <div class="row">
-            <div class="col-lg-6">
-              <img src="img/kobietabloto.jpg" class="img-thumbnail">
-            </div>
-            <div class="col-lg-6">
-              <h4>Zabieg witalizujacy</h4>
-              <p><span class="shadowed">Terapia z kwasem traneksamowym</span></p>
-              <p>Zabieg wykonywany przy użyciu profesjonalnych dermokosmetyków o potwierdzonej medycznie skuteczności.</p>
+      <div class="container">
+        <h1 class="text-center">Jesienna regeneracja</h1>
+        <div class="line"></div>
+        <p class="text-center">W okresie jesiennym polecamy zabiegi regeneracyjne</p>
+        <div class="row padbet">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="img/kobietabloto.jpg" class="img-thumbnail">
+              </div>
+              <div class="col-lg-6">
+                <h4>Zabieg witalizujacy</h4>
+                <p><span class="shadowed">Terapia z kwasem traneksamowym</span></p>
+                <p>Zabieg wykonywany przy użyciu profesjonalnych dermokosmetyków o potwierdzonej medycznie skuteczności.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="row">
-            <div class="col-lg-6">
-              <img src="img/kobietawoda.jpg" class="img-thumbnail">
-            </div>
-            <div class="col-lg-6">
-              <h4>Zabieg nawilżający</h4>
-              <p><span class="shadowed">HYDROSPHERIC THERAPY</span></p>
-              <p>Zabieg dotleniająco – nawilżający ułatwia transport wody w głąb skóry, pozwala utrzymać prawidłowy poziom nawilżenia, poprawia napięcie skóry, a także wzmacnia barierę ochronną.</p>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="img/kobietawoda.jpg" class="img-thumbnail">
+              </div>
+              <div class="col-lg-6">
+                <h4>Zabieg nawilżający</h4>
+                <p><span class="shadowed">HYDROSPHERIC THERAPY</span></p>
+                <p>Zabieg dotleniająco – nawilżający ułatwia transport wody w głąb skóry, pozwala utrzymać prawidłowy poziom nawilżenia, poprawia napięcie skóry, a także wzmacnia barierę ochronną.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </section>
     <!-- Section with offer sample ends here -->
 
@@ -145,6 +145,32 @@
         <h1 class="text-center">Pakiety upominkowe</h1>
         <div class="line"></div>
         <p class="text-center">Spraw radość swoim bliskim</p>
+
+        <div class="container padbet w-75">
+          <div class="row text-center">
+            <div class="col-3 tab-menu-active" id="tab-button-1">PAKIET 1</div>
+            <div class="col-3 tab-menu" id="tab-button-2">PAKIET 2</div>
+            <div class="col-3 tab-menu" id="tab-button-3">PAKIET 3</div>
+            <div class="col-3 tab-menu" id="tab-button-4">PAKIET 4</div>
+          </div>
+          <div class="row">
+            <div class="col-sx-12 tab-menu-item">
+              <h3>3 kroki do dobrego samopoczucia</h3>
+              <ul class="list-unstyled">
+                <li><i class="fa fa-check"></i> manicure hybrydowy</li>
+                <li><i class="fa fa-check"></i> pedicure hybrydowy</li>
+                <li><i class="fa fa-check"></i> relaksacyjny masaż twarzy</li>
+              </ul>
+              <h4>Pakiet o wartości 200 zł – tylko teraz w cenie 100 zł</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sx-12">
+                  <p><em>Vouchery można zakupić w naszym Gabinecie, a także u naszych specjalistów oraz na stronie na Facebooku.</em></p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
     <!-- Buy package section ends here -->
@@ -152,7 +178,7 @@
     <!-- Footer section starts here -->
     <footer class="padbet">
       <div class="container">
-        <p class="text-center">Copyright © 2015 miuestetic.pl. Wszystkie prawa zastrzerzone.</p>
+        <p class="text-center">Copyright © 2017 miuestetic.pl. Wszystkie prawa zastrzerzone.</p>
       </div>
     </footer>
     <!-- Footer section ends here -->
