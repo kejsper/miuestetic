@@ -18,10 +18,19 @@ $(document).ready(function () {
     $('html, body').animate({scrollTop: 0}, 600);
   });
 
+  // Buy package tab menu functionality
   $('.tabs').on('click', function() {
     $('.tab-menu-active').addClass('tab-menu').removeClass('tab-menu-active');
     $(this).addClass('tab-menu-active').removeClass('tab-menu');
-    
+
+    var clickedTab = $(this).attr('id');
+    var clickedId = clickedTab[clickedTab.length-1];
+    $('.tab-menu-item').addClass('hidden');
+    var idToShow = '#tab-item-' + clickedId;
+    $(idToShow).removeClass('hidden');
+    console.log(idToShow);
+    console.log(clickedTab);
+    console.log(clickedId);
   });
 
   // Shows scroll top arrow
