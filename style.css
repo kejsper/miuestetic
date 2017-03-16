@@ -78,6 +78,11 @@ footer {
   border-color: #bd187e;
 }
 
+.to-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
 /* navbar styling */
 nav.navbar {
   background: #fff;
