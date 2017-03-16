@@ -1,3 +1,19 @@
+@media screen and (max-width: 991px) {
+  .slider-margin {
+    margin-top: 20px;
+  }
+
+  .martop-btn {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .martop {
+    margin-top: 30px;
+  }
+}
+
 /* basic website styling */
 html, body {
   font-family: "Open Sans", sans-serif;
@@ -33,10 +49,6 @@ footer {
 /* added styling that is used commonly in the document */
 .padbet {
   padding: 60px 0;
-}
-
-.martop {
-  margin-top: 20px;
 }
 
 .difback {
@@ -81,6 +93,7 @@ footer {
 .to-bottom {
   position: absolute;
   bottom: 0;
+  text-align: center;
 }
 
 /* navbar styling */
